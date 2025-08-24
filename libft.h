@@ -89,4 +89,8 @@ int		ft_printchr(char c);
 int		ft_printhex(unsigned int n, int base);
 int		ft_printptr(unsigned long long n);
 
+//gnl
+
+char	*get_next_line(int fd);
+
 #endif

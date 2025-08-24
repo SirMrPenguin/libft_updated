@@ -21,7 +21,7 @@
 
 char	*get_next_line(int fd);
 
-size_t	ft_strlen(char *str);
+size_t	ft_strlen_fake(char *str);
 char	*ft_join(char *line, char *buffer);
 ssize_t	ft_find_nl(char *str);
 void	ft_memmove_nl(char *str);
