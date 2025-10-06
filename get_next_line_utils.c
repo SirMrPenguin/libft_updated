@@ -6,7 +6,7 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 18:54:57 by joabotel          #+#    #+#             */
-/*   Updated: 2025/05/09 00:05:21 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/06 19:04:13 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,8 @@ char	*ft_join(char *line, char *buff)
 			return (NULL);
 		line[0] = 0;
 	}
-	big = malloc((ft_strlen_fake(line) + ft_strlen_fake(buff) + 1) * sizeof(char));
+	big = malloc((ft_strlen_fake(line) + ft_strlen_fake(buff) + 1) * \
+sizeof(char));
 	if (big)
 	{
 		i = -1;
