@@ -6,7 +6,7 @@
 #    By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/02 18:15:47 by joabotel          #+#    #+#              #
-#    Updated: 2025/10/17 16:57:27 by joabotel         ###   ########.fr        #
+#    Updated: 2025/10/17 19:15:52 by joabotel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRC = 	ft_atoi.c \
 		ft_isalnum.c \
 		ft_bzero.c \
 		ft_isalpha.c \
+		ft_bfree.c \
 		ft_isascii.c \
 		ft_isdigit.c \
 		ft_isprint.c \
