@@ -6,7 +6,7 @@
 #    By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/02 18:15:47 by joabotel          #+#    #+#              #
-#    Updated: 2025/10/17 16:47:19 by joabotel         ###   ########.fr        #
+#    Updated: 2025/10/17 16:57:27 by joabotel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,6 +47,7 @@ SRC = 	ft_atoi.c \
 		ft_strncmp.c \
 		ft_strnstr.c \
 		ft_strrchr.c \
+		ft_str_is_num.c \
 		ft_tolower.c \
 		ft_toupper.c \
 		ft_lstadd_back.c \
