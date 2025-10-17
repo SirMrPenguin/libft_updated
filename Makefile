@@ -6,7 +6,7 @@
 #    By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/02 18:15:47 by joabotel          #+#    #+#              #
-#    Updated: 2025/05/16 02:09:44 by joabotel         ###   ########.fr        #
+#    Updated: 2025/10/17 16:47:19 by joabotel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror -g
 SRC = 	ft_atoi.c \
 		ft_calloc.c \
+		ft_atol.c \
 		ft_isalnum.c \
 		ft_bzero.c \
 		ft_isalpha.c \

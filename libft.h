@@ -6,7 +6,7 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 18:15:13 by joabotel          #+#    #+#             */
-/*   Updated: 2025/06/18 15:09:17 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/17 16:46:57 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	ft_bzero(void *s, size_t n);
 int		ft_atoi(const char *str);
-
+long	ft_atol(const char *str);
 //linked list struct
 typedef struct s_list
 {
