@@ -6,7 +6,7 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 18:15:13 by joabotel          #+#    #+#             */
-/*   Updated: 2025/10/17 19:15:34 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/17 19:27:58 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 int		ft_str_is_num(char *str);
-void	*bfree(char **arr);
+void	*ft_bfree(char **arr);
 
 //malloc
 void	*ft_calloc(size_t count, size_t size);
