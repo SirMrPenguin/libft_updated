@@ -6,7 +6,7 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 19:13:43 by joabotel          #+#    #+#             */
-/*   Updated: 2025/10/17 19:16:06 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:27:14 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	*ft_bfree(char **arr)
 {
 	int	i;
 
+	if (arr == NULL)
+		return ;
 	i = 0;
 	while (arr[i])
 	{
