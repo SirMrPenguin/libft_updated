@@ -6,7 +6,7 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/02 18:15:13 by joabotel          #+#    #+#             */
-/*   Updated: 2025/10/17 19:27:58 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:12:17 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <stddef.h>
 # include <stdarg.h>
+# include <limits.h>
 
 //strings
 int		ft_isdigit(int c);
