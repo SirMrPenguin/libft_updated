@@ -6,13 +6,13 @@
 /*   By: joabotel <joabotel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/17 19:13:43 by joabotel          #+#    #+#             */
-/*   Updated: 2025/10/20 18:27:14 by joabotel         ###   ########.fr       */
+/*   Updated: 2025/10/20 18:30:43 by joabotel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_bfree(char **arr)
+void	ft_bfree(char **arr)
 {
 	int	i;
 
@@ -25,5 +25,5 @@ void	*ft_bfree(char **arr)
 		i++;
 	}
 	free(arr);
-	return (NULL);
+	return ;
 }
