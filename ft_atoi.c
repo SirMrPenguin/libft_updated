@@ -31,8 +31,7 @@ int	ft_atoi(const char *str)
 	{
 		nb *= 10;
 		nb += *str - 48;
-		if ((min == 0 && nb > INT_MAX) || (min == -1
-				&& (long)nb > (long)INT_MAX + 1))
+		if ((min == 0 && nb > INT_MAX) || (min == -1))
 			return (0);
 		str++;
 	}
